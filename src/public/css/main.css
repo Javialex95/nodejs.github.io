@@ -1,0 +1,36 @@
+
+body{
+    font-family: 'Sigmar One', cursive;
+
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+footer{
+    color: black;
+}
+
+
+@media screen and (max-width: 549px){
+    .imgHome{
+        width: 60%;
+    }
+
+    .divHome{
+        padding: 50px 0px;
+    }
+}
+
+@media screen and (max-width: 365px){
+    .contacto{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 310px){
+    .contacto{
+        font-size: 20px;
+    }
+}
